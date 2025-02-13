@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-purple{
+    background-color: rgba(81, 67, 217,0.1);
+}
+.text-purple{
+    color: #5143D9 !important;
+}
+#head1{
+    background-image: url(SVG.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 80%, auto;
+}
+#luxury{
+    margin-top: 120px;
+}
+.story{
+    width: 68px;
+    height: 68px;
+    background-image: url(12.jpgstory.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* .curve{
+    width: 390px;
+    height: 21px;
+} */
+.check{
+    top: -10px;
+    left: 35%;
+}
+#form-absolute{
+    bottom: 40px;
+}
+#headphone{
+    top: -15px;
+    right: 70px;
+    background-color: rgba(245, 245, 246,0.4);
+}
+#searchicon{
+    width: 56px;
+    height: 56px;
+    top: 40%;
+    right: -30px;
+    background-color: #5143D9;
+}
+#two-image{
+    width: 150px;
+    height: 180px;
+    top: 30px;
+    left: -60px;
+}
+#small{
+    width: 130px;
+    height: 130px;
+}
+#big{
+    width: 140px;
+    height: 140px;
+}
+#crystal{
+    right: 50px;
+    bottom: 20px;
+}
+#travel{
+    background-image: url(04.jpgtravel.png);
+}
+#explore{
+    background-image: url(03.jpgexplore.png);
+}
+#booking{
+    background-image: url(02.jpgbooking.png);
+}
+#travel,#explore,#booking{
+    width: 370px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.font-custom{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bolder;
+}
+/* .icon-png{
+    height: 56px;
+    width: 56px;
+} */
+.bg-orange{
+    background-color: rgba(253, 126, 20, 0.1);
+}
+/* .max-height{
+    background-image: url(01.jpgholiday.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+} */
+.pos-custom{
+    bottom: 30px;
+}
+.star-custom{
+    top: -40px;
+    left: -20px;
+}
+.dot-custom{
+    bottom: -40px;
+    right: 40px;
+}
+.bg-green{
+    color: #0CBC87;
+}
+.bg-color{
+    background-color: #FD7E14;
+    left: -10px;
+    top: 30px;
+}
+.frame{
+    top: 100px;
+    right: -50px;
+}
+.Explore{
+    margin-top: 500px;
+}

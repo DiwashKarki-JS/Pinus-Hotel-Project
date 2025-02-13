@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <nav
+        class="navbar navbar-expand-sm navbar-light bg-white"
+        >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.svg.png" alt="">
+            </a>
+            <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                <li class="nav-item bg-purple rounded-3">
+                    <a class="nav-link active text-purple" href="#" aria-current="page"
+                    >
+                    <img src="Hotel.png" alt="" class="px-1">
+                    Hotel
+                    <span class="visually-hidden">(current)</span></a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Flight.png" alt="" class="px-1">
+                        Flight
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Tour.png" alt="" class="px-1">
+                        Tour
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Cab.png" alt="" class="px-1">
+                        Cab
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+<section class="top-section py-5">
+    <div class="container">
+        <div class="row position-relative">
+            <div class="col-6">
+                <div class="row position-relative">
+                    <h1 id="head1" class="w-50 position-absolute pb-1">
+                        Find the top <br> Hotels nearby.
+                    </h1>
+                    <div id="luxury" class="row">
+                    <p>We bring you not only a stay option, but an experience in your budget to
+                        enjoy the luxury.</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" class="p-3 mt-1 nav-link text-center text-purple rounded-3 bg-purple text-dark fs-5">Discover Now</a>
+                    </div>
+                    <div class="col-5">
+                        <a href="#" class="nav-link text-center fs-5 d-flex align-items-center">
+                            <div class="story d-flex align-items-center justify-content-center mx-1">
+                                <img src="div.btn.png" alt="">
+                            </div>
+                            Watch our story
+                        </a>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-6 position-relative">
+                    <img src="06.jpg.png" alt="">
+                    <div id="headphone" class="position-absolute text-center rounded-4 px-2 py-3 shadow">
+                        <img src="Vectorheadphone.png" alt="" class="my-2">
+                        <h5>24 / 7</h5>
+                        <h6>Guide Supports</h6>
+                    </div>
+                    <div id="two-image" class="d-flex flex-column position-absolute align-items-center">
+                        <img src="11.jpgsmall.png" alt="" id="small">
+                        <img src="12.jpgbig.png" alt="" id="big">
+                    </div>
+                    <div id="crystal" class="position-absolute">
+                        <img src="Figure ⏵ SVGcrystal.png" alt="">
+                    </div>
+            </div>
+            <div id="form-absolute" class="col-xl-9 position-absolute">
+                <b>Check Availability</b>
+                <form action="">
+                    <div class="row bg-white py-3 mt-3 border-1 shadow rounded">
+                        <div class="col-4 position-relative">
+                            <img src="Vectorloation.png" alt=""> 
+                            <label for="location" class="check bg-white position-absolute px-1">Location</label>
+                            <input type="text" name="" id="location" placeholder="Select location" class="p-2 ms-2 rounded border-1">
+                        </div>
+                        <div class="col-4 position-relative">
+                                <img src="Icondate.png" alt="">
+                            <label for="Date" class="check bg-white position-absolute px-1">Check in-out</label>
+                            <input type="text" name="" id="Date" value="19 sep to 28 sep" class="p-2 ms-2 rounded border-1">
+                        </div>
+                        <div class="col-4 position-relative">
+                                <img src="Iconguest.png" alt="">
+                            <label for="Guest" class="check bg-white position-absolute px-1">Guests & rooms</label>
+                            <input type="text" name="" id="Guest" value="2 Guests 1 Room" class="p-2 ms-2 rounded border-1">
+                        </div>
+                    </div>
+                </form>
+                    <button id="searchicon" class="rounded-circle position-absolute border-0">
+                        <img src="Iconsearch.png" alt="" class="p-3">
+                    </button>
+            </div>   
+        </div>
+    </div>
+</section>
+
+<section class="after-top my-5 pb-5">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div id="travel" class="col-4 rounded-4 border border-2 border-secondary-subtle"></div>
+            <div id="explore" class="col-4 rounded-4 border border-2 border-secondary-subtle"></div>
+            <div id="booking" class="col-4 rounded-4 border border-2 border-secondary-subtle"></div>
+        </div>
+    </div>
+</section>
+
+<section class="holidays mb-5 pb-5">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-5 position-relative">
+                <img src="01.jpgholiday.png" alt="" height="100%" width="auto" class="z-1 position-absolute">
+                    <img src="div.bg-bodyclient.png" alt="" class="z-1 position-absolute pos-custom">
+                    <img src="Vectorstar.png" alt="" class="z-1 position-absolute star-custom">
+                    <img src="Figure ⏵ SVGdots.png" alt="" class="position-absolute dot-custom">
+            </div>
+            <div class="col-6 fs-5">
+                <h2 class="font-custom">The Best Holidays Start
+                    Here!</h2>
+                    <p>Book your hotel with us and don't forget to grab an awesome hotel deal to
+                        save massive on your stay.</p>
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <img src="food.png" alt="" class="bg-success-subtle rounded-circle mb-1 p-4">
+                                <h5>Quality Food</h5>
+                                <p>Departure defective arranging
+                                    rapturous did. Conduct denied
+                                    adding worthy little.</p>
+                            </div>
+                            <div class="col-6">
+                                <img src="Iconsevices.png" alt="" class="bg-danger-subtle rounded-circle mb-1 p-4">
+                                <h5>Quick Services</h5>
+                                <p>Supposing so be resolving breakfast
+                                    am or perfectly.</p>
+                            </div>
+                            <div class="col-6">
+                                <img src="Iconsecurity.png" alt="" class="bg-orange rounded-circle mb-1 p-4">
+                                <h5>High Security</h5>
+                                <p>Arranging rapturous did believe him
+                                    all had supported.</p>
+                            </div>
+                            <div class="col-6">
+                                <!-- <div class="icon-png bg-info-subtle text-center rounded-circle mb-1 pt-3 ps-1">
+                                    <img src="Iconalert.png" alt="">
+                                </div> -->
+                                <img src="Iconalert.png" alt="" class="bg-info-subtle rounded-circle mb-1 p-4">
+                                <h5>24 Hours Alert</h5>
+                                <p>Rapturous did believe him all had
+                                    supported.</p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Featured-Hotels my-5 py-5">
+    <div class="container ">
+        <h2 class="text-center font-custom">Featured Hotels</h2>
+        <div class="row justify-content-between mt-4">
+            <div class="col-3">
+                <div class="card border-0">
+                <img src="hotels/01.jpgbaga.png" alt="">
+                </div>
+                <div class="name p-3">
+                    <h4 class="fw-bolder">Baga Comfort</h4>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="bg-green">$455 <small>/ starting at</small></h5>
+                        <h5>4.5
+                            <img src="Clients-icons/rating.png" alt="">
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-0">
+                    <img src="hotels/02.jpgnewappolo.png" alt="">
+                    </div>
+                    <div class="name p-3">
+                        <h4 class="fw-bolder">New Apollo Hotel</h4>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="bg-green">$585 <small>/ starting at</small></h5>
+                            <h5>4.8
+                                <img src="Clients-icons/rating.png" alt="">
+                            </h5>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-0">
+                    <img src="hotels/03.jpgage.png" alt="">
+                    </div>
+                    <div class="name p-3">
+                        <h4 class="fw-bolder">New Age Hotel</h4>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="bg-green">$385 <small>/ starting at</small></h5>
+                            <h5>4.6
+                                <img src="Clients-icons/rating.png" alt="">
+                            </h5>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-0">
+                    <img src="hotels/04.jpgbeach.png" alt="">
+                    </div>
+                    <div class="name p-3">
+                        <h4 class="fw-bolder">Helios Beach Resort</h4>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="bg-green">$665 <small>/ starting at</small></h5>
+                            <h5>4.8
+                                <img src="Clients-icons/rating.png" alt="">
+                            </h5>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="after-hotels mb-5 pb-5">
+    <div class="container">
+        <div class="row justify-content-between align-items-baseline">
+            <div class="col-2">
+                <img src="After hotels/01.svg.png" alt="">
+            </div>          
+            <div class="col-2">
+                <img src="After hotels/02.svg.png" alt="">
+            </div>            
+            <div class="col-2">
+                <img src="After hotels/03.svg.png" alt="">
+            </div>           
+            <div class="col-2">
+                <img src="After hotels/04.svg.png" alt="">
+            </div>         
+            <div class="col-2">
+                <img src="After hotels/05.svg.png" alt="">
+            </div>          
+            <div class="col-2">
+                <img src="After hotels/06.svg.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="billy mb-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 position-relative">
+                <img src="billy/Frame.png" alt="" class="position-absolute frame">
+            <img src="billy/01.jpgbilly.png" alt="" class="position-absolute">
+            <div class="rounded-4 position-absolute bg-color">
+            <img src="billy/02.svgwow.png" alt="">
+            </div>
+            </div>
+            <!-- <h5>Moonlight newspaper up its enjoyment
+                agreeable depending. Timed voice share led
+                him to widen noisy young. At weddings
+                believed in laughing</h5> -->
+        </div>
+    </div>
+</section>
+
+<section class="Explore mb-5 pb-5">
+    <div class="container">
+        <h2 class="text-center font-custom">Explore Nearby</h2>
+        <div class="row g-5 mt-3">
+            <div  class="col-2 text-center">
+                <img src="Explore/01.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">San Fransisco</h4>
+                    13 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/02.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Los Angeles</h4>
+                    25 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/03.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Miami</h4>
+                    45 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/04.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Sanjosh</h4>
+                    55 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/05.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">New York</h4>
+                    1-hour drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/06.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">North Justen</h4>
+                    2-hour drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/07.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Rio</h4>
+                    20 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/08.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Las Vegas</h4>
+                    3-hour drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/09.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Texas</h4>
+                    55 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/10.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Chicago</h4>
+                    13 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/11.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">New Keagan</h4>
+                    35 min drive
+                </div>
+            </div>
+            <div  class="col-2 text-center">
+                <img src="Explore/01.jpg.png" alt="">
+                <div class="py-4">
+                    <h4 class="fw-bold">Oslo</h4>
+                    1-hour 13 min drive
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="last-section bg-secondary-subtle py-5">
+    <div class="container">
+        <div class="row py-5 g-5 justify-content-center align-items-center">
+            <div class="col-4">
+                <div class="row bg-white rounded-3 p-4">
+                    <div class="col-2">
+                        <img src="last/Heart.png" alt="">
+                    </div>
+                    <div class="col-10">
+                        <h3>24x7 Help</h3>
+                        <p>If we fall short of your expectation
+                            in any way, let us know</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row bg-white rounded-3 p-4">
+                    <div class="col-2">
+                        <img src="last/Money.png" alt="">
+                    </div>
+                    <div class="col-10">
+                        <h3>Payment Trust</h3>
+                        <p>All refunds come with no questions
+                            asked guarantee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ms-auto">
+                <h4>Download app</h4>
+                <a href="#">
+                    <img src="last/Link ⏵ google-play.svg.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="last/app-store.svg.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
